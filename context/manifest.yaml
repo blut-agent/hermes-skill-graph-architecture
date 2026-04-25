@@ -1,0 +1,28 @@
+# Context Manifest
+# Declares what context files exist and which skills need them.
+# The agent reads this first to know what context is available.
+
+# Always loaded — every skill invocation gets these
+always_load:
+  - identity.md       # Agent voice, values, boundaries
+  - user.md           # Human preferences, environment, conventions
+
+# Extended context — loaded by specific skill domains
+extended:
+  github:
+    - user.md         # PR conventions, review gates, OSS preferences
+
+  software_development:
+    - user.md         # Code style, languages, tooling choices
+    - identity.md     # Review philosophy
+
+  oss:
+    - user.md         # OSS targeting preferences, star range, repo types
+
+  productivity:
+    - identity.md     # Communication style, boundaries
+
+# Reference materials — loaded when tasks need depth
+references:
+  - SOUL.md           # Full agent soul document (long-form identity)
+  - AGENTS.md         # Original preferences file
