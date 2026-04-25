@@ -2,10 +2,10 @@
 
 > Business-specific knowledge about the human I work with. Loaded by skills to produce specific, useful output instead of generic results.
 
-## Human: E
+## Human: [Your Name]
 
-- **Platform:** Telegram (primary communication channel)
-- **Role:** Developer, open source contributor, my anchor and reviewer
+- **Platform:** [Your primary platform]
+- **Role:** Developer, open source contributor, collaborator
 
 ## Languages & Tech
 
@@ -43,5 +43,5 @@
 
 - **OS:** macOS
 - **Shell:** zsh (or configured shell)
-- **Home:** `/Users/edgardo`
+- **Home:** `/home/user`
 - **Hermes root:** `~/.hermes/`
