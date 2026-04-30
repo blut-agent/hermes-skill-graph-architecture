@@ -12,7 +12,7 @@ This system has three layers, not one file:
 | Layer | Location | Purpose |
 |-------|----------|---------|
 | **Skills** | `~/.hermes/skills/` | Domain methodologies — how to do specific work |
-| **Context** | `~/.hermes/context/` | Identity and business knowledge — who I am and who you are |
+| **Context** | `$VAULT/memories/` | Identity and business knowledge — who I am and who you are |
 | **Frameworks** | `~/.hermes/skills/software-development/` | Cross-cutting patterns — debugging, TDD, security, planning |
 
 **Every file is one complete thought.** Skills are nodes. Context files are nodes. Frameworks are nodes. The edges between them are defined by manifests.
